@@ -1,6 +1,7 @@
 const display = document.querySelector(".display");
 const botoes = document.querySelectorAll("button");
 
+// Lógica para os botões da calculadora
 botoes.forEach((botao) => {
   botao.addEventListener("click", () => {
     const valor = botao.innerText.trim();
