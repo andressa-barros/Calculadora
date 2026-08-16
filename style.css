@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #f3eef2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.title {
+  font-family: "Pixelify Sans", sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  color: #d56989;
+  margin-bottom: 25px;
+}
+
+.calculadora {
+  width: 556px;
+  height: 732px;
+  background-color: #ffb6c7;
+  border-radius: 50px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+.display {
+  width: 100%;
+  height: 106px;
+  min-height: 106px;
+  background-color: #f4d1cf;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 25px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #294023;
+}
+
+.keyboard {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.btn-green {
+  background-color: #2b4321;
+  color: #ffb6c7;
+  border: none;
+  border-radius: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.btn {
+  background-color: #d56989;
+  color: #2b4321;
+  border: none;
+  border-radius: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #fa8aa4;
+  color: #2b4321;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-green:hover {
+  cursor: pointer;
+  background-color: #3c5e2d;
+  color: #ffb6c7;
+  transition: all 0.3s ease-in-out;
+}
