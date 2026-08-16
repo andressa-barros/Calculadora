@@ -64,6 +64,8 @@ body {
 }
 
 .btn-green {
+  width: 100%;
+  height: 100%;
   background-color: #2b4321;
   color: #ffb6c7;
   border: none;
@@ -75,6 +77,8 @@ body {
 }
 
 .btn {
+  width: 100%;
+  height: 100%;
   background-color: #d56989;
   color: #2b4321;
   border: none;
@@ -84,7 +88,6 @@ body {
   text-align: center;
   font-weight: 700;
 }
-
 .btn:hover {
   cursor: pointer;
   background-color: #fa8aa4;
